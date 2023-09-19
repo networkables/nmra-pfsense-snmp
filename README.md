@@ -9,6 +9,7 @@ docker run \
   -e PG_ORG_NAME="YOUR_CUSTOMER_ID" \
   -e PG_ORG_TOKEN="YOUR_SECRET_TOKEN" \
   -e PG_SITE_NAME="YOUR_SITE_NAME" \
+  -e PG_SNMP_COMMUNITY="YOUR_SNMP_COMMUNITY_STRING" \
   -e PG_PFSENSE_ADDR="YOUR_PFSENSE_ADDR" \
   ghcr.io/networkables/nmra-pfsense-snmp:1.0.0
 ```

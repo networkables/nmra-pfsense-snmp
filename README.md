@@ -11,5 +11,5 @@ docker run \
   -e PG_SITE_NAME="YOUR_SITE_NAME" \
   -e PG_SNMP_COMMUNITY="YOUR_SNMP_COMMUNITY_STRING" \
   -e PG_PFSENSE_ADDR="YOUR_PFSENSE_ADDR" \
-  ghcr.io/networkables/nmra-pfsense-snmp:1.1.0
+  ghcr.io/networkables/nmra-pfsense-snmp:1.2.0
 ```
